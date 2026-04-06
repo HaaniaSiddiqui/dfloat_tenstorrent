@@ -1,0 +1,122 @@
+Loading model: Qwen/Qwen2.5-0.5B
+Found 9 grouped configurations
+Exporting to: /home/haania.siddiqui/artifacts/grouped_export
+
+========================================================================
+EXPORTED GROUP: shard_0/attn
+  num_layers              = 24
+  total_vals              = 11010048
+  avg_exp_bits            = 2.8608
+  sign_mantissa_bytes     = 11010048
+  encoded_exp_bytes       = 3937137
+  split_metadata_bytes    = 184
+  total_storage_bytes     = 14947369
+  final_bits_per_weight   = 10.8609
+  final_compression       = 1.4732x
+  output_dir              = artifacts/grouped_export/shard_0__attn
+========================================================================
+EXPORTED GROUP: shard_0/mlp
+  num_layers              = 18
+  total_vals              = 78446592
+  avg_exp_bits            = 2.6475
+  sign_mantissa_bytes     = 78446592
+  encoded_exp_bytes       = 25961082
+  split_metadata_bytes    = 136
+  total_storage_bytes     = 104407810
+  final_bits_per_weight   = 10.6475
+  final_compression       = 1.5027x
+  output_dir              = artifacts/grouped_export/shard_0__mlp
+========================================================================
+EXPORTED GROUP: shard_1/attn
+  num_layers              = 24
+  total_vals              = 11010048
+  avg_exp_bits            = 2.8016
+  sign_mantissa_bytes     = 11010048
+  encoded_exp_bytes       = 3855782
+  split_metadata_bytes    = 184
+  total_storage_bytes     = 14866014
+  final_bits_per_weight   = 10.8018
+  final_compression       = 1.4812x
+  output_dir              = artifacts/grouped_export/shard_1__attn
+========================================================================
+EXPORTED GROUP: shard_1/mlp
+  num_layers              = 18
+  total_vals              = 78446592
+  avg_exp_bits            = 2.6645
+  sign_mantissa_bytes     = 78446592
+  encoded_exp_bytes       = 26127423
+  split_metadata_bytes    = 136
+  total_storage_bytes     = 104574151
+  final_bits_per_weight   = 10.6645
+  final_compression       = 1.5003x
+  output_dir              = artifacts/grouped_export/shard_1__mlp
+========================================================================
+EXPORTED GROUP: shard_2/attn
+  num_layers              = 24
+  total_vals              = 11010048
+  avg_exp_bits            = 2.7878
+  sign_mantissa_bytes     = 11010048
+  encoded_exp_bytes       = 3836754
+  split_metadata_bytes    = 184
+  total_storage_bytes     = 14846986
+  final_bits_per_weight   = 10.7880
+  final_compression       = 1.4831x
+  output_dir              = artifacts/grouped_export/shard_2__attn
+========================================================================
+EXPORTED GROUP: shard_2/mlp
+  num_layers              = 18
+  total_vals              = 78446592
+  avg_exp_bits            = 2.6691
+  sign_mantissa_bytes     = 78446592
+  encoded_exp_bytes       = 26172421
+  split_metadata_bytes    = 136
+  total_storage_bytes     = 104619149
+  final_bits_per_weight   = 10.6691
+  final_compression       = 1.4997x
+  output_dir              = artifacts/grouped_export/shard_2__mlp
+========================================================================
+EXPORTED GROUP: shard_3/attn
+  num_layers              = 24
+  total_vals              = 11010048
+  avg_exp_bits            = 2.7762
+  sign_mantissa_bytes     = 11010048
+  encoded_exp_bytes       = 3820821
+  split_metadata_bytes    = 184
+  total_storage_bytes     = 14831053
+  final_bits_per_weight   = 10.7764
+  final_compression       = 1.4847x
+  output_dir              = artifacts/grouped_export/shard_3__attn
+========================================================================
+EXPORTED GROUP: shard_3/lm_head
+  num_layers              = 1
+  total_vals              = 136134656
+  avg_exp_bits            = 2.6144
+  sign_mantissa_bytes     = 136134656
+  encoded_exp_bytes       = 44488534
+  split_metadata_bytes    = 0
+  total_storage_bytes     = 180623190
+  final_bits_per_weight   = 10.6144
+  final_compression       = 1.5074x
+  output_dir              = artifacts/grouped_export/shard_3__lm_head
+========================================================================
+EXPORTED GROUP: shard_3/mlp
+  num_layers              = 18
+  total_vals              = 78446592
+  avg_exp_bits            = 2.6379
+  sign_mantissa_bytes     = 78446592
+  encoded_exp_bytes       = 25866839
+  split_metadata_bytes    = 136
+  total_storage_bytes     = 104313567
+  final_bits_per_weight   = 10.6379
+  final_compression       = 1.5041x
+  output_dir              = artifacts/grouped_export/shard_3__mlp
+
+========================================================================
+OVERALL EXPORTED SUMMARY
+  total_vals              = 493961216
+  original_bytes          = 942.16 MB
+  grouped_storage_bytes   = 627.55 MB
+  final_bits_per_weight   = 10.6572
+  final_compression       = 1.5013x
+  manifest                = /home/haania.siddiqui/artifacts/grouped_export/manifest.json
+========================================================================
