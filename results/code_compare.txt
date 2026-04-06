@@ -1,0 +1,76 @@
+Loading model: Qwen/Qwen2.5-0.5B
+Linear layers found: 169
+============================================================
+PER_LAYER
+Total weights               : 493961216
+Original bytes              : 942.16 MB
+Sign+mantissa bytes         : 471.08 MB
+Encoded exponent bytes      : 156.16 MB
+Bits per weight             : 10.6519
+Compression ratio           : 1.5021x
+============================================================
+
+Per-type code stats:
+q_proj             | weights=19267584   | avg_exp_bits=2.8441 | encoded_exp_MB=6.53
+k_proj             | weights=2752512    | avg_exp_bits=2.8295 | encoded_exp_MB=0.93
+v_proj             | weights=2752512    | avg_exp_bits=2.7620 | encoded_exp_MB=0.91
+o_proj             | weights=19267584   | avg_exp_bits=2.7632 | encoded_exp_MB=6.35
+gate_proj          | weights=104595456  | avg_exp_bits=2.6583 | encoded_exp_MB=33.15
+up_proj            | weights=104595456  | avg_exp_bits=2.6346 | encoded_exp_MB=32.85
+down_proj          | weights=104595456  | avg_exp_bits=2.6669 | encoded_exp_MB=33.25
+lm_head            | weights=136134656  | avg_exp_bits=2.6144 | encoded_exp_MB=42.43
+============================================================
+PER_TYPE
+Total weights               : 493961216
+Original bytes              : 942.16 MB
+Sign+mantissa bytes         : 471.08 MB
+Encoded exponent bytes      : 156.39 MB
+Bits per weight             : 10.6559
+Compression ratio           : 1.5015x
+============================================================
+
+Global avg exponent bits: 2.6723
+============================================================
+GLOBAL
+Total weights               : 493961216
+Original bytes              : 942.16 MB
+Sign+mantissa bytes         : 471.08 MB
+Encoded exponent bytes      : 157.36 MB
+Bits per weight             : 10.6723
+Compression ratio           : 1.4992x
+============================================================
+
+Per-shard naive code stats:
+shard_0            | layers=42   | weights=89456640   | avg_exp_bits=2.6774 | encoded_exp_MB=28.55
+shard_1            | layers=42   | weights=89456640   | avg_exp_bits=2.6821 | encoded_exp_MB=28.60
+shard_2            | layers=42   | weights=89456640   | avg_exp_bits=2.6838 | encoded_exp_MB=28.62
+shard_3            | layers=43   | weights=225591296  | avg_exp_bits=2.6521 | encoded_exp_MB=71.32
+============================================================
+PER_SHARD_NAIVE
+Total weights               : 493961216
+Original bytes              : 942.16 MB
+Sign+mantissa bytes         : 471.08 MB
+Encoded exponent bytes      : 157.10 MB
+Bits per weight             : 10.6679
+Compression ratio           : 1.4998x
+============================================================
+
+Per-shard type-aware code stats:
+shard_0/attn       | layers=24   | weights=11010048   | avg_exp_bits=2.8608 | encoded_exp_MB=3.75
+shard_0/mlp        | layers=18   | weights=78446592   | avg_exp_bits=2.6475 | encoded_exp_MB=24.76
+shard_1/attn       | layers=24   | weights=11010048   | avg_exp_bits=2.8016 | encoded_exp_MB=3.68
+shard_1/mlp        | layers=18   | weights=78446592   | avg_exp_bits=2.6645 | encoded_exp_MB=24.92
+shard_2/attn       | layers=24   | weights=11010048   | avg_exp_bits=2.7878 | encoded_exp_MB=3.66
+shard_2/mlp        | layers=18   | weights=78446592   | avg_exp_bits=2.6691 | encoded_exp_MB=24.96
+shard_3/attn       | layers=24   | weights=11010048   | avg_exp_bits=2.7762 | encoded_exp_MB=3.64
+shard_3/mlp        | layers=18   | weights=78446592   | avg_exp_bits=2.6379 | encoded_exp_MB=24.67
+shard_3/lm_head    | layers=1    | weights=136134656  | avg_exp_bits=2.6144 | encoded_exp_MB=42.43
+============================================================
+PER_SHARD_TYPE_AWARE
+Total weights               : 493961216
+Original bytes              : 942.16 MB
+Sign+mantissa bytes         : 471.08 MB
+Encoded exponent bytes      : 156.47 MB
+Bits per weight             : 10.6572
+Compression ratio           : 1.5013x
+============================================================
